@@ -1,0 +1,6 @@
+__pycache__/
+/build
+/dist
+/hello_world.exe_extracted
+/venve
+hello_world.spec
