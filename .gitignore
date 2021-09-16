@@ -4,3 +4,4 @@ __pycache__/
 /hello_world.exe_extracted
 /venve
 hello_world.spec
+/venv*
