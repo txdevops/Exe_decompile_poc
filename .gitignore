@@ -5,3 +5,9 @@ __pycache__/
 /venve
 hello_world.spec
 /venv*
+/Sahyog_1.1.exe*
+/Sahyog_1.2.exe*
+output.xlsx
+Sahyog_1.1.spec
+Sahyog_1.2.spec
+uncompiled*

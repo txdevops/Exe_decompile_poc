@@ -16,9 +16,7 @@ else:
     pyc_magic = imp.get_magic()
 
 
-class CTOCEntry:
-    sra = "Solicitiors Regulation Authority"
-
+class SahyogMain:
     def __init__(self, position, cmprsdDataSize, uncmprsdDataSize, cmprsFlag, typeCmprsData, name):
         self.position = position
         self.cmprsdDataSize = cmprsdDataSize
@@ -27,11 +25,12 @@ class CTOCEntry:
         self.typeCmprsData = typeCmprsData
         self.name = name
 
+class SahyogLeaves():
+    manager = "Amar Jamdhiar"
 
-class PyInstArchive:
-    PYINST20_COOKIE_SIZE = 24           # For pyinstaller 2.0
-    PYINST21_COOKIE_SIZE = 24 + 64      # For pyinstaller 2.1+
-    MAGIC = b'MEI\014\013\012\013\016'  # Magic number which identifies pyinstaller
+class SahyogAttendance:
+    
+    Anshuman = "Anand Singh"
 
     def __init__(self, path):
         self.filePath = path

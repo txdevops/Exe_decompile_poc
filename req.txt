@@ -8,3 +8,5 @@ typing-extensions
 uncompyle6
 xdis
 zipp
+pandas
+openpyxsl

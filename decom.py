@@ -45,16 +45,16 @@ def diff_fn(file1, file2):
 
 def main():
     input("Press Enter to continue...")
-    extraction("Sample_v1")
+    extraction("Sahyog_1.1")
     print("\n", "Uncompyling the pyc file", "\n")
     uncompile_exe()
-    input("make some changes to Sample_v2.py")
-    input("Press enter to create Exe for Sample_v2_py")
-    extraction("Sample_v2")
+    input("make some changes to Sahyog_1.2.py & Press enter to create Exe")
+    extraction("Sahyog_1.2")
     print("\n", "Uncompyling the pyc file", "\n")
     uncompile_exe()
     
-    class_list =[ clsname[0] for clsname in diff_fn("uncompiled_Sample_v1.py", "uncompiled_Sample_v2.py") if  clsname!=[]]
+    class_list =[ clsname[0] for clsname in diff_fn("uncompiled_Sahyog_1.1.py", "uncompiled_Sahyog_1.2.py") if  clsname!=[]]
+    print(class_list)
     df = pd.DataFrame(class_list, columns=["class"])
     df.to_excel("output.xlsx")
     print("\n\n","the end", "\n\n")
